@@ -1,0 +1,10 @@
+it consist of 2 phase 
+phase 1:
+    collection of imgaes of open eye and closed eye
+    and training
+phase 2:
+    making rasberry pi as server and collecting images from rasberry pi and sending it to the client using server.py
+    run live recognization using client.py
+requirements:
+    python 3.7.1
+    tensorflow 2.4.0

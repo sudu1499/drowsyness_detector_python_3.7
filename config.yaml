@@ -1,0 +1,4 @@
+img_path: E:\projects\drowsyness_detector_3.7\images
+size: 112
+model_path: E:\projects\drowsyness_detector_3.7\saved_model
+encoder: E:\projects\drowsyness_detector_3.7\encoder
