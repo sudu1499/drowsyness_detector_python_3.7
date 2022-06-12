@@ -72,7 +72,9 @@ def detect_eye(img_path,size):
         ee=det2.detectMultiScale(frameg,1.3,5)
 
         for fx,fy,fxx,fyy in ee:
-            face=frameg[fy:fy+fyy,fx:fx+fxx]
+            face=frame[fy:fy+fyy,fx:fx+fxx]
+            frameg=cv2.cvtColor(face,cv2.COLOR_BGR2GRAY)
+
             cv2.imshow('eye detectd',frame)
 
             e=det.detectMultiScale(face)
